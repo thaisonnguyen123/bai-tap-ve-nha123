@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Booking Form</b></h1>
+    <form action="submit_booking.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="Phone" name="Phone" required><br><br>
+
+        <label for="date">Booking Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="Number of Guests">Number of Guests:</label>
+        <input type="number" id="Number of Guests" name="Number of Guests" min="1" max="10" required><br><br>
+
+        <label for="Delivery date">Delivery date:</label><br>
+        <input type="date" id="Delivery date" name="Delivery date" required><br><br>
+
+        <input type="submit" value="Submit">
+
+</body>
+</html>
